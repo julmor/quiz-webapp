@@ -1,7 +1,7 @@
 databases:
-  - name: quiz_webapp
-    databaseName: quiz_webapp_production
-    user: quiz_webapp
+  - name: quizle
+    databaseName: quiz_webapp_production_4koe
+    user: quizle
 
 services:
   - type: web
