@@ -7,6 +7,7 @@ class Quiz < ApplicationRecord
   validates :user, :title, :questions, presence: true
   validates :title, length: { maximum: 32 }
 
+
   before_create :generate_code
 
   private
